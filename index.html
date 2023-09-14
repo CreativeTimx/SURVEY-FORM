@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-green-500">
+    <h1 class="text-xl font-bold text-center my-10">CreativeTimx SURVEY FORM</h1>
+
+    <div class="bg-white w-9/12 md:w-6/12 lg:w-5/12 mx-auto shadow-lg rounded-sm p-5 mb-10">
+        <div>
+            <label for="name" class="my-4">
+                <p>Name</p>
+                <input type="text" placeholder="Enter Your Name"class="border-2 block my-2 outline-none p-1 rounded-md w-full">
+            </label>
+            <label for="email" class="my-4">
+                <p>Email</p>
+                <input type="email" placeholder="Enter Your Email"class="border-2 block my-2 outline-none p-1 rounded-md w-full">
+            </label>
+            <label for="age" class="my-4">
+                <p>Age</p>
+                <input type="text" placeholder="Enter Your Age" maxlength="2"class="border-2 block my-2 outline-none p-1 rounded-md w-full">
+            </label>
+            <label for="option" class="my-4">
+                <p>What option best describes you?</p>
+                <select name="attribute" id="" class="w-full border-2 p-1 rounded-md outline-none my-2 text-gray-500">
+                    <option value="student">Student</option>
+                    <option value="parent">Parent</option>
+                    <option value="footballer">Footballer</option>
+                    <option value="actor">Actor</option>
+                </select>
+            </label>
+            <label for="radio">
+                <p>Would You recommend CreativeTimx to a friend?</p>
+                <input type="radio" name="option" value="yes" class="my-2"><span class="mx-2">Yes</span><br>
+                <input type="radio" name="option" value="yes" class="my-2"><span class="mx-2">No</span><br>
+                <input type="radio" name="option" value="yes" class="my-2"><span class="mx-2">Maybe</span>
+            </label>
+            <label for="checkbox">
+                <p class="mb-1">Languages and Framework know(<span class="text-sm text-gray-500">Check all that apply</span>)</p>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">C</span><br>
+                <input type="checkbox" name="C" value="C++"><span class="mx-2">C++</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">Java</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">Python</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">Javascript</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">React</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">Angular</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">Django</span><br>
+                <input type="checkbox" name="C" value="C"><span class="mx-2">Spring</span><br>
+            </label>
+            <label for="spacearea">
+                <p>Any comments or suggestions</p>
+                <textarea name="comments" id="" rows="2" class="border-2 w-full my-2 rounded-sm outline-none">
+
+                </textarea>
+            </label>
+
+            <button class="bg-green-500 rounded w-full py-3 my-6 text-white text-xl hover:bg-green-400">Submit</button>
+        </div>
+    </div>
+    
+</body>
+</html>
